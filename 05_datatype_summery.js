@@ -26,4 +26,22 @@ const myFunction = function(){
     console.log("Jai Shree Ram");
 }
 
-console.log(typeof Id);
+// console.log(typeof isLoggedIn);
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                     // MEMORY
+    //   There are two type of memory
+    // 1) stack(It  store Premitive data type)
+    // 2) Heap(It  store  Non-Premitive data type)
+
+    let myYoutubename ="A-RAj";
+    let myShortName =myYoutubename;
+    myShortName ="Raunak"; 
+    console.log(myShortName);
+    let userone= {
+        email :"avinashraj@gmail.com",
+        upiId:"6202171069@okaxis"
+    }
+    let usertwo =userone;
+    usertwo.email="raj@gmail.com"
+    console.log(userone.email);
+console.log(usertwo.email);
