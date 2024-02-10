@@ -30,7 +30,8 @@ const obj={e:7,f:6}
 // console.log(returnedTarget === target);//false
 
 const obj3={...target, ...source,...obj}
-console.log(obj3);
+// console.log(obj3);//{ a: 1, b: 2, d: 4, c: 5, e: 7, f: 6 }
+
     
 const users = [
     {
@@ -47,11 +48,37 @@ const users = [
     },
 ]
 users[1].email;
-console.log(tinderUser);//{ id: '12344', name: 'Avinash', isLoggedIn: false } 
-console.log(Object.keys(tinderUser))//[ 'id', 'name', 'isLoggedIn' ]
+// console.log(tinderUser);//{ id: '12344', name: 'Avinash', isLoggedIn: false } 
+// console.log(Object.keys(tinderUser))//[ 'id', 'name', 'isLoggedIn' ]
 //NOTE:- above line gives output in array so we apply loop in output in array
 //It is very very important
-console.log(Object.values(tinderUser))//[ '12344', 'Avinash', false ]
-console.log(Object.entries(tinderUser))//[ [ 'id', '12344' ], [ 'name', 'Avinash' ], [ 'isLoggedIn', false ] ]
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))//true;
-console.log(tinderUser.hasOwnProperty('isLogged'))//false;
+// console.log(Object.values(tinderUser))//[ '12344', 'Avinash', false ]
+// console.log(Object.entries(tinderUser))//[ [ 'id', '12344' ], [ 'name', 'Avinash' ], [ 'isLoggedIn', false ] ]
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))//true;
+// console.log(tinderUser.hasOwnProperty('isLogged'))//false;
+
+
+
+const course={
+    coursename : "js in Hindi",
+    price :"999",
+    courseInstructor:"Avinash"
+}
+
+// console.log(course.courseInstructor);
+const {courseInstructor:Instructor}=course
+console.log(Instructor)
+
+
+// {
+//    "name":"Avinash" ,
+//    "coursename":"js in hindi",
+//    "price": "free"
+// }
+[
+    {},
+    {},
+    {}
+]
+
+
