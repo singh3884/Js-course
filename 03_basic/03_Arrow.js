@@ -25,3 +25,20 @@ const chai= ()=>{
         let username="Avinash"
         console.log(this);
     }
+    // chai();
+    //Difference between arrow and normal function
+    // 1)
+    // const addTwo =(num1,num2)=>{
+    //     return num1+num2;
+    // }
+    // 2)
+    // const addTwo =(num1,num2)=> num1+num2
+    // 3)
+    // const addTwo =(num1,num2)=> (num1+num2)
+    const addTwo =(num1,num2)=> ({username:"Avinash"})
+
+    
+
+    console.log(addTwo(3,4));//7
+
+    
