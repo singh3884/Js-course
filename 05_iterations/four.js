@@ -20,6 +20,8 @@ map.set('IN',"INDIA")
 map.set('USA',"United Sate America")
 map.set('fr',"France")
 map.set('IN',"INDIA")
-for (const key in map) {
-  console.log(key);
+for (const [key,value] of map) {
+  console.log(key ,":-" , value);
 }
+
+//for in loop is not use in map

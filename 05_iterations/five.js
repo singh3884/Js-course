@@ -1,7 +1,9 @@
 const coding =["js","ruby","java","python","cpp"]
 
+
+
 coding.forEach(function(item){
-  console.log(item);
+//   console.log(item);
 })
 
 //arrow function
@@ -16,7 +18,7 @@ coding.forEach(function(item){
 
 
 coding.forEach((item,index,arr)=>{
-//   console.log(item,index,arr);
+  console.log(item,index,arr);
 })
 
 

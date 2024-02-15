@@ -3,7 +3,7 @@
 //[{},{},{}]  object in side the array
 const arr = [1,2,3,4,5]
 for (const num of arr) {
-    console.log(num);
+    // console.log(num);
 }
 
 const greatings ="Hello World!"
@@ -16,6 +16,7 @@ map.set('USA',"United Sate America")
 map.set('fr',"France")
 map.set('IN',"INDIA")
 // console.log(map);
+
 
 for (const [key,value] of map) {
      console.log(key,":-",value);
