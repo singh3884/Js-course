@@ -61,3 +61,5 @@ String.prototype.trueLength = function(){
 
 }
 anotherusername.trueLength();
+
+"avinash".trueLength();
