@@ -32,3 +32,8 @@ console.log(userone.constructor);
 //2) constructer function call hota hai new key word ka karan 
 //3)argument are injected in this key word 
 //4) output mill jata hai
+
+//
+
+
+// this key Word in not present in arrow function 
